@@ -5,6 +5,7 @@ include_once('include/benc.php');
 include_once('lib/common.lib');
 
 $announce_interval = 15*60;
+
 $timeout = 1*60*60;
 
 define('TABLE_PEERS','peers');
